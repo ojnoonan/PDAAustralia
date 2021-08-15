@@ -3,7 +3,7 @@
   font-family: 'Inter', sans-serif;
   --text-primary: #000000;
   --text-secondary: #ffffff;
-  --bg-primary: rgba(222, 244, 251, 0.5);
+  --bg-primary: 222, 244, 251;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
   --animation-speed: 7s;
