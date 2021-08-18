@@ -1,0 +1,46 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5% 7% 5% 12%;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    place-content: center;
+    gap: 0.5em;
+}
+
+.project-cell {
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+    padding: 200px 160px;
+    text-align: center;
+    box-shadow: 0.2em 0.4em 0.3em 0.125px #0000003b;
+    border-radius: 0.5em;
+    transition: box-shadow 600ms ease;
+}
+
+.project-cell:hover {
+    box-shadow: 0.2em 0.4em 0.3em 0.125px #0000006a;
+}
+
+.project-cell-title {
+    font-size: 1em;
+    color: var(--text-secondary);
+    background: rgba(0, 0, 0, 0.409);
+
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: max-content;
+    max-width: 100%;
+}

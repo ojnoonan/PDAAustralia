@@ -1,10 +1,10 @@
 :root {
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Raleway', sans-serif;
   --text-primary: #000000;
   --text-secondary: #ffffff;
-  --bg-primary: 222, 244, 251;
-  --bg-secondary: #141418;
+  --bg-primary: rgba(255, 255, 255, 0.3);
+  --bg-secondary: rgba(255, 255, 255, 0.4);
   --transition-speed: 600ms;
   --animation-speed: 7s;
 }
@@ -19,4 +19,14 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
+}
+
+.bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  text-align: center;
 }
